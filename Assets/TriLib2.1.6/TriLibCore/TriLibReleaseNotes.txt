@@ -1,0 +1,15 @@
+﻿2.1.6
+Changelog:
+-Fixed AssetLoaderContext.LoadedTextures registration bug.
+-Fixed sRGB Colors/Textures loading.
+-Fixed FBX and OBJ Metallic/Smoothness Textures creation.
+-Fixed OBJ MTL color parsing issue.
+-Fixed AssetUnloader Id serialization bug.
+-Fixed AssetUnloader creation bug.
+-Fixed AssetLoaderOptions.MergeVertices bug.
+-Removed automatic AssetLoaderOptions.LoadTexturesAsSRGB flag deactivaction.
+-Added ListModelResources sample. This sample lists all Resources (Textures/External Data) from the loaded Model.
+-Added FBX Lights Range.
+-Added FBX 3dsMax Materials Offset and Tiling loading.
+-Added SetUnusedTexturePropertiesToNull Asset Loader Option. Enable this field to set the unused Material Texture Properties to null.
+-Added CustomDataHelper class. Use this class to handle the "CustomData" field from the AssetLoaderContext as a Type/Object Dictionary.
