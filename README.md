@@ -73,13 +73,12 @@ ProjectFolder/
 3. 将模型导出为Unity支持的格式（如FBX）
 4. 在Unity中导入模型并配置材质和骨骼
 5. 设置角色控制器和动画系统
-1. 提取
+1. 提取人物模型的骨架放置于t2n文件夹下bone文件夹中
 ### 实时动作生成实现
-实现角色的实时动作生成可能涉及以下技术：
+实现角色的实时动作生成涉及以下技术：
 - **AI驱动**：使用机器学习模型根据输入生成动作指令
 - **程序化动画**：基于预定义的规则和参数生成动画
-- **物理模拟**：使用物理引擎模拟自然运动
-根据CSDN博客文章，DS FUN-Unity插件可以帮助开发者更便捷地在Unity平台中利用动捕数据进行高效创作[[5](https://blog.csdn.net/DSKJ_DSFun/article/details/135474267)]。
+- TODO:[ ]**物理模拟**：使用物理引擎模拟自然运动
 ### 优化技巧
 为了确保Digital Wife在各种设备上流畅运行，可以考虑以下优化技巧：
 - **LOD设置**：为角色和环境物体设置不同的细节层次
@@ -102,14 +101,8 @@ ProjectFolder/
 3. 提交PR：提交Pull Request进行代码审查
 4. 参与讨论：积极参与社区讨论，提出您的见解和建议
 ## 许可证
-Digital Wife项目遵循[MIT许可证](LICENSE)。您可以自由使用、修改和分发该项目，但请尊重原作者的版权和贡献。
+Digital Wife项目遵循[GPL许可证](LICENSE)。您可以自由使用、修改和分发该项目，但请尊重原作者的版权和贡献。
 ## 联系方式
 如果您有任何问题或建议，请通过以下方式与我们联系：
-- 邮箱：[project@example.com](mailto:project@example.com)
-- GitHub：[GitHub仓库地址](#)
-- Discord：[Discord服务器地址](#)
-## 参考资料
-[0] Unity制作数字人---- 前言原创 - CSDN博客. https://blog.csdn.net/weixin_53501436/article/details/132555196.
-[1] 探索Unity的Digital Human：构建未来虚拟角色的新里程碑 - CSDN博客. https://blog.csdn.net/gitblog_00063/article/details/137858896.
-[5] 在Unity中使用动捕数据实时驱动3D数字人，提升项目效率 - CSDN博客. https://blog.csdn.net/DSKJ_DSFun/article/details/135474267.
-[6] 基于AI的快速数字虚拟人制作与动画流程|Unity|Mixamo|Avatar. https://zhuanlan.zhihu.com/p/686802091. 
+- 邮箱：[wyy1937365497@outlook.com](mailto:wyy1937365497@outlook.com)
+- QQ
